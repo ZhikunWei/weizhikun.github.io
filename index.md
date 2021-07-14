@@ -2,12 +2,11 @@
 - 手机号/微信：15201777035
 - 邮箱：weizk19@mails.tsinghua.edu.cn
 
-
 # 个人信息
-- 卫志坤
-- 男
+- 姓名：卫志坤
+- 性别：男
 - 预计2022年6月毕业
-- 
+ 
 # 教育背景
 ## 清华大学 - 硕士研究生
 - 专业：计算机科学与技术
@@ -21,34 +20,61 @@
 - 上海交通大学校级优秀毕业生
 
 # 竞赛项目
-### CVPR2021 1st lightweight NAS challenge Track 1: Supernet Track
-- 时间：2021/03/01 - 2021/05/24
+### (研究生时期) AAAI2021 MetaDL Challenge 冠军
+- 时间：2020/10-2020/11
+- 该竞赛形式是少样本学习的图像分类任务，要求参赛者设计有效的元学习算法，最终排名以盲测数据集上的表现为准。
+- 解决了以下三大挑战：
+    - 如何使模型具有快速适应小样本新任务的能力：通过对现有方法的大量实验，最终选取Metric-based 方法，使用预训练编码器，将数据集映射到一个元知识空间，并以空间中测试样本点（query）和训练样本点（support）的距离远近，来快速进行小样本分类，解决少样本学习问题。
+    - 工程实现上，设计资源控制器，实现多线程调度控制，分配有限时间(2小时)和计算资源(4GPU)，分发数据到不同GPU上训练不同backbone的模型。
+    - 自动选择最佳Ensemble 方法，聚合多GPU 的不同模型，以适应未知类型数据集。
+- 相关链接：[赛事官网](https://competitions.codalab.org/competitions/26638#learn_the_details)，[媒体报道](https://mp.weixin.qq.com/s/GhaSBbNgOho7b3XFd1M7tw)。
+
+### (研究生时期) CVPR2021 1st lightweight NAS challenge Track 1: Supernet Track 第三名
+- 时间：2021/03 - 2021/05
 - 超网络赛道旨在解决One-shot NAS的一致性问题，要求参赛者通过子网络继承超网络参数的方式对子网络的性能进行排序，与真实性能排序最接近者获胜。
 - 解决方案：针对超网络的特点，选取了以下三个探究方向
     - 超网络参数共享方式： 按共享程度区分，每一层的参数可完全共享、完全独立或是部分共享。
     - 架构采样：均匀随机采样，按参数量加权采样，公平采样（不放回采样）
     - 超网络优化方式：直接用交叉熵损失优化，基于知识蒸馏的优化（以参数最多的子网络为教师网络）
 - 结论是：全共享优于部分共享或独立共享，公平采样优于随机采样或按加权采样，动态教师蒸馏策略可最大化提升性能。
-- 相关链接：[赛事官网](https://aistudio.baidu.com/aistudio/competition/detail/64?lang=en)，[比赛结果:第三名](https://mp.weixin.qq.com/s/HT6A9wvdkk3SkPDlIfZUrg)
+- 相关链接：[赛事官网](https://aistudio.baidu.com/aistudio/competition/detail/64?lang=en)，[媒体报道](https://mp.weixin.qq.com/s/HT6A9wvdkk3SkPDlIfZUrg)
 
-### AAAI2021 MetaDL Challenge
-- 时间：
-- 相关链接：[赛事官网](https://competitions.codalab.org/competitions/26638#learn_the_details)，[比赛结果：冠军](https://mp.weixin.qq.com/s/GhaSBbNgOho7b3XFd1M7tw)。
-
-### RobotMaster全国大学生机器人大赛
+### （本科时期）RobotMaster全国大学生机器人大赛
 - [RoboMaster](https://www.robomaster.com/zh-CN)是一个由参赛者自行设计机器人结构和算法，双方进行实弹射击对抗的比赛。上海交通大学组建交龙战队参赛，分为机械、电控、视觉算法三个部门，总人数30+。
 - 2018年任视觉算法组组员，完成视觉机关识别，算法稳定性优化等任务。
 - 2019年任视觉算法组组长，带领视觉组5人团队共同完成两大任务：视觉机关识别与打击，敌方装甲识别与自动打击。
     - 其中我个人主要贡献是攻克了“打击敌方移动目标”的难题：由于机械延迟和弹道延迟，使用传统的PID控制算法发射的弹丸难以击中运动中的目标。
     - 我在世界坐标系中对敌方运动轨迹建模来预测敌方位移，此过程中利用卡尔曼滤波解决了高噪控制信号导致云台震荡的问题，最终实现了稳定的提前量打击。
     - 稳定的预测打击可以快速击杀敌方哨兵，我队凭借该技术优势制定了速攻战术，最终获全国亚军，奖金30万。
-    - [算法原型](https://github.com/ZhikunWei/RM2019_SJTU_Prediction_shot_demo)，[比赛视频资料](https://so.youku.com/search_video/q_robomaster?searchfrom=1)
+- 相关链接：[算法原型](https://github.com/ZhikunWei/RM2019_SJTU_Prediction_shot_demo)，[比赛视频资料](https://so.youku.com/search_video/q_robomaster?searchfrom=1)
 
-# 发表工作
-
-# 其他项目
+# 现有工作
+- __Zhikun Wei__, Xin Wang, Wenwu Zhu. _AutoIAS: Automatic Integrated Architecture Searcher For Click-Trough Rate Prediction_.   
+本人一作，投稿至CIKM2021  
+解决推荐模型不同模块间的架构联合搜索优化问题，提出构建一种可以使得不同模块的结构适配的NAS 方法，其中提出了统一所有模块的搜索空间，使用了基于知识蒸馏的方法优化超网络，使用基于策略梯度的架构生成器探索搜索空间。
+- _MetaDelta: A Meta-Learning System for Few-shot Image Classification_.  
+收录于AAAI2021 Workshop on MetaDL  
+总结参加AAAI2021 MetaDL Challenge的解决方案，并将其扩展至一般的小样本图像分类任务。
+- _One-Shot Neural Channel Search: What Works and What’s Next_.  
+收录于CVPR2021 workshop on Lightweight-NAS  
+总结参加CVPR2021超网络赛道的工作，并整理为一般性的NAS优化方法。
 
 # 实习经历
-
-
-
+- 字节跳动-今日头条推荐组算法岗
+    - 北京 2021/3~
+    - 工作内容为今日头条推荐系统中小视频的相关工作。
+    - 分析小视频线上消费情况，寻找推荐系统和模型存在的问题。
+    - 解决小视频的CTR预估受视频时长的不公平影响的问题。
+    - 解决没有利用好抖音资源的问题，最新尝试是在模型中加入用户近期观看信息。
+    - 开展线上实验，验证模型效果。
+- 商汤科技-教育机器人算法岗
+    - 上海 2019/6~2019/9
+    - 参与教育类机器人算法研发。以乐高机器人为载体，开发基于OpenCV的巡线、定位、识别等功能。
+ 
+# 其他信息
+ ## 专业技能
+ Python - C++  
+ Pytorch  
+ Linux - Git - Latex
+ ## 英语能力
+ 托福 99分
