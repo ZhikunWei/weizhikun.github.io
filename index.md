@@ -1,26 +1,23 @@
-# 联系方式
+# 卫志坤
+
+## 联系方式
 - 手机号/微信：15201777035
 - 邮箱：weizk19@mails.tsinghua.edu.cn
-
-# 个人信息
-- 姓名：卫志坤
-- 性别：男
-- 预计2022年6月毕业
  
-# 教育背景
-## 清华大学 - 硕士研究生
+## 教育背景
+### 清华大学 - 硕士研究生
 - 专业：计算机科学与技术
 - 导师：朱文武
 - 研究方向：自动机器学习(AutoML)，神经架构搜索(NAS)
 - 时间：2019.8~2022.6
-## 上海交通大学 - 本科
+### 上海交通大学 - 本科
 - 院系：电子信息与电气工程学院-IEEE试点班
 - 专业：计算机科学与技术
 - 时间：2015.9~2019.7
 - 上海交通大学校级优秀毕业生
 
-# 竞赛项目
-### (研究生时期) AAAI2021 MetaDL Challenge 冠军
+## 竞赛项目
+#### (研究生时期) AAAI2021 MetaDL Challenge 冠军
 - 时间：2020/10-2020/11
 - 该竞赛形式是少样本学习的图像分类任务，要求参赛者设计有效的元学习算法，最终排名以盲测数据集上的表现为准。
 - 解决了以下三大挑战：
@@ -29,7 +26,7 @@
     - 自动选择最佳Ensemble 方法，聚合多GPU 的不同模型，以适应未知类型数据集。
 - 相关链接：[赛事官网](https://competitions.codalab.org/competitions/26638#learn_the_details)，[媒体报道](https://mp.weixin.qq.com/s/GhaSBbNgOho7b3XFd1M7tw)。
 
-### (研究生时期) CVPR2021 1st lightweight NAS challenge Track 1: Supernet Track 第三名
+#### (研究生时期) CVPR2021 1st lightweight NAS challenge Track 1: Supernet Track 第三名
 - 时间：2021/03 - 2021/05
 - 超网络赛道旨在解决One-shot NAS的一致性问题，要求参赛者通过子网络继承超网络参数的方式对子网络的性能进行排序，与真实性能排序最接近者获胜。
 - 解决方案：针对超网络的特点，选取了以下三个探究方向
@@ -39,7 +36,7 @@
 - 结论是：全共享优于部分共享或独立共享，公平采样优于随机采样或按加权采样，动态教师蒸馏策略可最大化提升性能。
 - 相关链接：[赛事官网](https://aistudio.baidu.com/aistudio/competition/detail/64?lang=en)，[媒体报道](https://mp.weixin.qq.com/s/HT6A9wvdkk3SkPDlIfZUrg)
 
-### （本科时期）RobotMaster全国大学生机器人大赛
+#### （本科时期）RobotMaster全国大学生机器人大赛
 - [RoboMaster](https://www.robomaster.com/zh-CN)是一个由参赛者自行设计机器人结构和算法，双方进行实弹射击对抗的比赛。上海交通大学组建交龙战队参赛，分为机械、电控、视觉算法三个部门，总人数30+。
 - 2018年任视觉算法组组员，完成视觉机关识别，算法稳定性优化等任务。
 - 2019年任视觉算法组组长，带领视觉组5人团队共同完成两大任务：视觉机关识别与打击，敌方装甲识别与自动打击。
@@ -48,7 +45,7 @@
     - 稳定的预测打击可以快速击杀敌方哨兵，我队凭借该技术优势制定了速攻战术，最终获全国亚军，奖金30万。
 - 相关链接：[算法原型](https://github.com/ZhikunWei/RM2019_SJTU_Prediction_shot_demo)，[比赛视频资料](https://so.youku.com/search_video/q_robomaster?searchfrom=1)
 
-# 现有工作
+## 现有工作
 - __Zhikun Wei__, Xin Wang, Wenwu Zhu. _AutoIAS: Automatic Integrated Architecture Searcher For Click-Trough Rate Prediction_.   
 本人一作，投稿至CIKM2021  
 解决推荐模型不同模块间的架构联合搜索优化问题，提出构建一种可以使得不同模块的结构适配的NAS 方法，其中提出了统一所有模块的搜索空间，使用了基于知识蒸馏的方法优化超网络，使用基于策略梯度的架构生成器探索搜索空间。
@@ -59,7 +56,7 @@
 收录于CVPR2021 workshop on Lightweight-NAS  
 总结参加CVPR2021超网络赛道的工作，并整理为一般性的NAS优化方法。
 
-# 实习经历
+## 实习经历
 - 字节跳动-今日头条推荐组算法岗
     - 北京 2021/3~
     - 工作内容为今日头条推荐系统中小视频的相关工作。
@@ -71,10 +68,10 @@
     - 上海 2019/6~2019/9
     - 参与教育类机器人算法研发。以乐高机器人为载体，开发基于OpenCV的巡线、定位、识别等功能。
  
-# 其他信息
- ## 专业技能
+## 其他信息
+ ### 专业技能
  Python - C++  
  Pytorch  
  Linux - Git - Latex
- ## 英语能力
+ ### 英语能力
  托福 99分
