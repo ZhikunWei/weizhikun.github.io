@@ -9,7 +9,8 @@
 - 专业：计算机科学与技术
 - 导师：朱文武
 - 研究方向：自动机器学习(AutoML)，神经架构搜索(NAS)
-- 时间：2019.8~2022.6
+- 时间：2019.8~2022.6  
+
 ### 上海交通大学 - 本科
 - 院系：电子信息与电气工程学院-IEEE试点班
 - 专业：计算机科学与技术
@@ -36,7 +37,7 @@
 - 结论是：全共享优于部分共享或独立共享，公平采样优于随机采样或按加权采样，动态教师蒸馏策略可最大化提升性能。
 - 相关链接：[赛事官网](https://aistudio.baidu.com/aistudio/competition/detail/64?lang=en)，[媒体报道](https://mp.weixin.qq.com/s/HT6A9wvdkk3SkPDlIfZUrg)
 
-#### （本科时期）RobotMaster全国大学生机器人大赛
+#### （本科时期）RobotMaster全国大学生机器人大赛 全国冠军
 - [RoboMaster](https://www.robomaster.com/zh-CN)是一个由参赛者自行设计机器人结构和算法，双方进行实弹射击对抗的比赛。上海交通大学组建交龙战队参赛，分为机械、电控、视觉算法三个部门，总人数30+。
 - 2018年任视觉算法组组员，完成视觉机关识别，算法稳定性优化等任务。
 - 2019年任视觉算法组组长，带领视觉组5人团队共同完成两大任务：视觉机关识别与打击，敌方装甲识别与自动打击。
@@ -45,8 +46,14 @@
     - 稳定的预测打击可以快速击杀敌方哨兵，我队凭借该技术优势制定了速攻战术，最终获全国亚军，奖金30万。
 - 相关链接：[算法原型](https://github.com/ZhikunWei/RM2019_SJTU_Prediction_shot_demo)，[比赛视频资料](https://so.youku.com/search_video/q_robomaster?searchfrom=1)
 
+#### （本科时期）上海交大-中国联通联合实验室
+- 时间：2017.8-2019.1
+- 校企合作项目，联通开发用户套餐推荐、用户换机推荐模型。
+- 清洗处理原始数据，分析数据特征，做特征工程，分别建立以协同过滤为基础和以SVM 为基础的推荐模型。
+- 两项任务在离线测试中F1-score 均达到任务要求，通过验收
+
 ## 现有工作
-- __Zhikun Wei__, Xin Wang, Wenwu Zhu. _AutoIAS: Automatic Integrated Architecture Searcher For Click-Trough Rate Prediction_.   
+- _AutoIAS: Automatic Integrated Architecture Searcher For Click-Trough Rate Prediction_.   
 本人一作，投稿至CIKM2021  
 解决推荐模型不同模块间的架构联合搜索优化问题，提出构建一种可以使得不同模块的结构适配的NAS 方法，其中提出了统一所有模块的搜索空间，使用了基于知识蒸馏的方法优化超网络，使用基于策略梯度的架构生成器探索搜索空间。
 - _MetaDelta: A Meta-Learning System for Few-shot Image Classification_.  
@@ -55,6 +62,9 @@
 - _One-Shot Neural Channel Search: What Works and What’s Next_.  
 收录于CVPR2021 workshop on Lightweight-NAS  
 总结参加CVPR2021超网络赛道的工作，并整理为一般性的NAS优化方法。
+- _Cooperative Fraud Detection Model With Privacy-Preserving in Real CDR Datasets_.  
+本科期间的IEEE Access  
+建立了一个跨运营商的诈骗账户检测模型，让运营商们在保护各自隐私数据的同时能有效检测出潜藏的诈骗账户，并在真实业务数据集上验证了效果。导师和我为共同一作
 
 ## 实习经历
 - 字节跳动-今日头条推荐组算法岗
