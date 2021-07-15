@@ -38,13 +38,13 @@
 - 相关链接：[赛事官网](https://aistudio.baidu.com/aistudio/competition/detail/64?lang=en)，[媒体报道](https://mp.weixin.qq.com/s/HT6A9wvdkk3SkPDlIfZUrg)
 
 #### （本科时期）RobotMaster全国大学生机器人大赛 全国冠军
-- [RoboMaster](https://www.robomaster.com/zh-CN)是一个由参赛者自行设计机器人结构和算法，双方进行实弹射击对抗的比赛。上海交通大学组建交龙战队参赛，分为机械、电控、视觉算法三个部门，总人数30+。
+- RoboMaster是一个由参赛者自行设计机器人结构和算法，双方进行实弹射击对抗的比赛。上海交通大学组建交龙战队参赛，分为机械、电控、视觉算法三个部门，总人数30+。
 - 2018年任视觉算法组组员，完成视觉机关识别，算法稳定性优化等任务。
 - 2019年任视觉算法组组长，带领视觉组5人团队共同完成两大任务：视觉机关识别与打击，敌方装甲识别与自动打击。
     - 其中我个人主要贡献是攻克了“打击敌方移动目标”的难题：由于机械延迟和弹道延迟，使用传统的PID控制算法发射的弹丸难以击中运动中的目标。
     - 我在世界坐标系中对敌方运动轨迹建模来预测敌方位移，此过程中利用卡尔曼滤波解决了高噪控制信号导致云台震荡的问题，最终实现了稳定的提前量打击。
     - 稳定的预测打击可以快速击杀敌方哨兵，我队凭借该技术优势制定了速攻战术，最终获全国亚军，奖金30万。
-- 相关链接：[算法原型](https://github.com/ZhikunWei/RM2019_SJTU_Prediction_shot_demo)，[比赛视频资料](https://so.youku.com/search_video/q_robomaster?searchfrom=1)
+- 相关链接：[识别算法](https://github.com/ZhikunWei/RM_hero)，[预测算法原型](https://github.com/ZhikunWei/RM2019_SJTU_Prediction_shot_demo)，[比赛视频资料](https://so.youku.com/search_video/q_robomaster?searchfrom=1)
 
 #### （本科时期）上海交大-中国联通联合实验室
 - 时间：2017.8-2019.1
