@@ -63,7 +63,7 @@
 收录于CVPR2021 workshop on Lightweight-NAS  
 总结参加CVPR2021超网络赛道的工作，并整理为一般性的NAS优化方法。
 - _Cooperative Fraud Detection Model With Privacy-Preserving in Real CDR Datasets_.  
-本科期间的IEEE Access  
+本科期间的期刊IEEE Access  
 建立了一个跨运营商的诈骗账户检测模型，让运营商们在保护各自隐私数据的同时能有效检测出潜藏的诈骗账户，并在真实业务数据集上验证了效果。导师和我为共同一作
 
 ## 实习经历
